@@ -1,8 +1,7 @@
 :root {
   --dark-mode-color: #2c2d34;
   --accent--yellow-color: #efd510;
-  --accent--orange-color: #f2910a;
-  --accent-red-color: #e94822;
+  --accent--yellow2-color: #b7a205;
 }
 
 body {
@@ -15,8 +14,8 @@ body {
   border: 2px solid var(--accent--yellow-color);
 }
 .btn.learnMore:hover {
-  color: var(--accent--orange-color);
-  border: 2px solid var(--accent--orange-color);
+  color: var(--accent--yellow2-color);
+  border: 2px solid var(--accent--yellow2-color);
 }
 
 .croissantNav {
@@ -26,6 +25,10 @@ body {
 
 a.croissant {
   color: var(--accent--yellow-color);
+}
+
+h2.heading-border {
+  border-bottom: 2px solid var(--accent--yellow-color);
 }
 
 .pic {
